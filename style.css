@@ -1,34 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    padding:20px;
+    color:#222;
+}
+
+.container{
+    max-width:700px;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#0f172a;
+}
+
+.search-box{
+    display:flex;
+    gap:10px;
+    margin-bottom:25px;
+}
+
+.search-box input{
+    flex:1;
+    padding:15px;
+    font-size:18px;
+    border:2px solid #ddd;
+    border-radius:12px;
+    outline:none;
+}
+
+.search-box input:focus{
+    border-color:#2563eb;
+}
+
+.search-box button{
+    padding:15px 25px;
+    border:none;
+    border-radius:12px;
+    background:#2563eb;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.search-box button:hover{
+    background:#1d4ed8;
+}
+
+.product{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
 .product-image{
     width:100%;
-    border-radius:15px;
-    margin-bottom:20px;
+    border-radius:16px;
+    margin-bottom:25px;
 }
 
 .product-title{
-    font-size:30px;
-    font-weight:bold;
     text-align:center;
+    font-size:30px;
     margin-bottom:20px;
     color:#111827;
+    font-weight:700;
 }
 
 .product-description{
-    text-align:left;
-    line-height:1.8;
     font-size:17px;
+    line-height:1.9;
     color:#444;
+    margin-bottom:25px;
+}
+
+.feature-section{
     margin-bottom:30px;
+}
+
+.feature-section h3{
+    font-size:22px;
+    margin-bottom:15px;
+    color:#111827;
+}
+
+.feature-list{
+    list-style:none;
+    padding:0;
+}
+
+.feature-list li{
+    background:#f8fafc;
+    margin-bottom:10px;
+    padding:14px 16px;
+    border-radius:12px;
+    font-size:16px;
+    border-left:5px solid #22c55e;
 }
 
 .buy-btn{
     display:block;
     width:100%;
-    padding:18px;
-    border-radius:15px;
-    background:#16a34a;
-    color:#fff;
     text-align:center;
     text-decoration:none;
+    background:#22c55e;
+    color:white;
+    padding:18px;
+    border-radius:14px;
     font-size:22px;
     font-weight:bold;
+    transition:.3s;
+}
+
+.buy-btn:hover{
+    background:#16a34a;
+    transform:translateY(-2px);
+}
+
+@media(max-width:600px){
+
+.search-box{
+    flex-direction:column;
+}
+
+.search-box button{
+    width:100%;
+}
+
+.product{
+    padding:18px;
+}
+
+.product-title{
+    font-size:24px;
+}
+
+.product-description{
+    font-size:16px;
+}
+
+.buy-btn{
+    font-size:20px;
+}
+
 }
