@@ -1,13 +1,12 @@
 let products = [];
 
-// Load products from products.json
 fetch("products.json")
   .then(response => response.json())
   .then(data => {
     products = data;
   })
   .catch(error => {
-    console.error("Error loading products:", error);
+    console.error("Error:", error);
   });
 
 function searchProduct() {
@@ -38,14 +37,23 @@ function searchProduct() {
 
   result.innerHTML = `
     <div class="product">
+
+      <h2 class="product-title">${found.name}</h2>
+
       <img src="${found.image}" alt="${found.name}">
-      <h2>${found.name}</h2>
-      <p><strong>Code:</strong> ${found.code}</p>
-      <p><strong>Category:</strong> ${found.category}</p>
-      <p><strong>Price:</strong> ${found.price}</p>
-      <a class="buy-btn" href="${found.link}" target="_blank">
-        🛒 Buy Now
+
+      <p class="product-description">
+        ${found.description}
+      </p>
+
+      <a class="buy-btn"
+         href="${found.link}"
+         target="_blank">
+
+         🛒 BUY NOW
+
       </a>
+
     </div>
   `;
 }
