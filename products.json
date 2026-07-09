@@ -1,0 +1,26 @@
+[
+  {
+    "code": "GL001",
+    "name": "Wireless Earbuds",
+    "category": "Audio",
+    "price": "$29.99",
+    "image": "https://via.placeholder.com/300x300?text=GL001",
+    "link": "https://example.com"
+  },
+  {
+    "code": "GL002",
+    "name": "Smart Watch",
+    "category": "Wearables",
+    "price": "$49.99",
+    "image": "https://via.placeholder.com/300x300?text=GL002",
+    "link": "https://example.com"
+  },
+  {
+    "code": "GL003",
+    "name": "Mini Projector",
+    "category": "Home",
+    "price": "$89.99",
+    "image": "https://via.placeholder.com/300x300?text=GL003",
+    "link": "https://example.com"
+  }
+]
