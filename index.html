@@ -18,9 +18,11 @@
 <section class="search-section">
 
     <input
-        type="text"
-        id="searchInput"
-        placeholder="Search Product Code (Example: GL001)"
+    type="text"
+    id="searchInput"
+    placeholder="Enter Product Code (Example: GL001)"
+    onkeypress="if(event.key==='Enter'){searchProduct();}"
+
     >
 
     <button onclick="searchProduct()">
