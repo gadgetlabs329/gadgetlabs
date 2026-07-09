@@ -44,7 +44,22 @@ function searchProduct() {
     return;
   }
 
+  // Convert description line breaks
   const description = found.description.replace(/\n/g, "<br>");
+
+  // Build feature list
+  let featureHTML = "";
+
+  if (found.features && found.features.length > 0) {
+    featureHTML = `
+      <div class="feature-section">
+        <h3>Key Features</h3>
+        <ul class="feature-list">
+          ${found.features.map(feature => `<li>✔️ ${feature}</li>`).join("")}
+        </ul>
+      </div>
+    `;
+  }
 
   result.innerHTML = `
     <div class="product">
@@ -62,6 +77,8 @@ function searchProduct() {
       <div class="product-description">
         ${description}
       </div>
+
+      ${featureHTML}
 
       <a
         class="buy-btn"
