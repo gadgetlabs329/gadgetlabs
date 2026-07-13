@@ -44,10 +44,8 @@ function searchProduct() {
     return;
   }
 
-  // Convert description line breaks
   const description = found.description.replace(/\n/g, "<br>");
 
-  // Build feature list
   let featureHTML = "";
 
   if (found.features && found.features.length > 0) {
@@ -87,21 +85,19 @@ function searchProduct() {
         rel="noopener noreferrer"
       >
         🛒 BUY NOW
-        <div class="affiliate-disclosure">
-
-    <h4>Affiliate Disclosure</h4>
-
-    <p>
-        Some links on this website may be affiliate links. If you make a purchase through these links, we may earn a commission at no extra cost to you.
-    </p>
-
-    <p class="copyright">
-        © 2026 Tanvixa. All rights reserved.
-    </p>
-
-</div>
-  
       </a>
+
+      <div class="affiliate-disclosure">
+
+        <p>
+          Some links on this website may be affiliate links. If you make a purchase through these links, we may earn a commission at no extra cost to you.
+        </p>
+
+        <p class="copyright">
+          © 2026 Tanvixa. All rights reserved.
+        </p>
+
+      </div>
 
     </div>
   `;
