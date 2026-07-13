@@ -87,6 +87,20 @@ function searchProduct() {
         rel="noopener noreferrer"
       >
         🛒 BUY NOW
+        <div class="affiliate-disclosure">
+
+    <h4>Affiliate Disclosure</h4>
+
+    <p>
+        Some links on this website may be affiliate links. If you make a purchase through these links, we may earn a commission at no extra cost to you.
+    </p>
+
+    <p class="copyright">
+        © 2026 Tanvixa. All rights reserved.
+    </p>
+
+</div>
+  
       </a>
 
     </div>
