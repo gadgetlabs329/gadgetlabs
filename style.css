@@ -418,3 +418,228 @@ footer {
 
 
 }
+
+/* ===============================
+   PRODUCT CARD DESIGN
+================================ */
+
+
+.product-card {
+
+    background: #ffffff;
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.10);
+    text-align: center;
+    overflow: hidden;
+
+}
+
+
+
+.product-image {
+
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.product-card h2 {
+
+    font-size: 26px;
+    color: #111827;
+    margin-bottom: 15px;
+
+}
+
+
+
+.product-description {
+
+    text-align: left;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+/* ===============================
+   FEATURES LIST
+================================ */
+
+
+.product-features {
+
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 20px 0;
+
+}
+
+
+
+.product-features li {
+
+    background: #f3f4f6;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+/* ===============================
+   BUY NOW BUTTON
+================================ */
+
+
+.buy-button {
+
+    display: inline-block;
+    margin-top: 20px;
+    padding: 16px 45px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.3s;
+    animation: pulseButton 2s infinite;
+
+}
+
+
+
+.buy-button:hover {
+
+    background: #1d4ed8;
+    transform: scale(1.05);
+
+}
+
+
+
+
+
+
+
+/* BUY BUTTON ANIMATION */
+
+
+@keyframes pulseButton {
+
+
+    0% {
+
+        box-shadow: 0 0 0 0 rgba(37,99,235,0.6);
+
+    }
+
+
+    70% {
+
+        box-shadow: 0 0 0 15px rgba(37,99,235,0);
+
+    }
+
+
+    100% {
+
+        box-shadow: 0 0 0 0 rgba(37,99,235,0);
+
+    }
+
+
+}
+
+
+
+
+
+
+
+/* ===============================
+   AFFILIATE BOX
+================================ */
+
+
+.affiliate-box {
+
+    margin-top: 25px;
+    padding: 15px;
+    background: #fff7ed;
+    border-radius: 12px;
+    font-size: 13px;
+    color: #555;
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+/* ===============================
+   MOBILE PRODUCT CARD
+================================ */
+
+
+@media(max-width:600px){
+
+
+    .product-card {
+
+        padding: 18px;
+
+    }
+
+
+
+    .product-image {
+
+        height: 250px;
+
+    }
+
+
+
+    .product-card h2 {
+
+        font-size: 22px;
+
+    }
+
+
+
+    .buy-button {
+
+        width: 100%;
+        font-size: 17px;
+
+    }
+
+
+}
