@@ -217,10 +217,11 @@ function searchProduct(){
 
 
             <img 
-            src="${product.image}" 
-            alt="${product.name}"
-            class="product-image"
-            >
+src="${product.image}" 
+alt="${product.name}"
+class="product-image"
+onerror="this.src='images/logo.png'"
+>
 
 
 
