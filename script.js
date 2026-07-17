@@ -1,108 +1,269 @@
+/* ===============================
+   TANVIXA PRODUCT SEARCH SYSTEM
+================================ */
+
+
 let products = [];
 
+
+
+// Load Product Data
+
 fetch("products.json")
-  .then(response => response.json())
-  .then(data => {
+
+.then(response => response.json())
+
+.then(data => {
+
     products = data;
-  })
-  .catch(error => {
-    console.error("Error loading products:", error);
-  });
 
-function searchProduct() {
+})
 
-  const keyword = document
-    .getElementById("searchInput")
+.catch(error => {
+
+    console.log("Product loading error:", error);
+
+});
+
+
+
+
+
+
+
+// ===============================
+// SEARCH PRODUCT FUNCTION
+// ===============================
+
+
+function searchProduct(){
+
+
+    let code = document
+    .getElementById("productCode")
     .value
     .trim()
     .toUpperCase();
 
-  const result = document.getElementById("result");
 
-  result.innerHTML = "";
 
-  if (keyword === "") {
-    result.innerHTML = `
-      <div class="product">
-        <h2>Please enter a product code.</h2>
-      </div>
-    `;
-    return;
-  }
+    let result = document.getElementById("result");
 
-  const found = products.find(
-    product => product.code.toUpperCase() === keyword
-  );
 
-  if (!found) {
-    result.innerHTML = `
-      <div class="product">
-        <h2>❌ Product Not Found</h2>
-        <p>Please check the product code and try again.</p>
-      </div>
-    `;
-    return;
-  }
 
-  // Convert description line breaks
-  const description = found.description.replace(/\n/g, "<br>");
 
-  // Build feature list
-  let featureHTML = "";
+    if(code === ""){
 
-  if (found.features && found.features.length > 0) {
-    featureHTML = `
-      <div class="feature-section">
-        <h3>Key Features</h3>
-        <ul class="feature-list">
-          ${found.features.map(feature => `<li>✔️ ${feature}</li>`).join("")}
-        </ul>
-      </div>
-    `;
-  }
 
-  result.innerHTML = `
-    <div class="product">
+        result.innerHTML = `
 
-      <img
-        class="product-image"
-        src="${found.image}"
-        alt="${found.name}"
-      >
+        <div class="welcome-card">
 
-      <h2 class="product-title">
-        ${found.name}
-      </h2>
-
-      <div class="product-description">
-        ${description}
-      </div>
-
-      ${featureHTML}
-
-      <a
-        class="buy-btn"
-        href="${found.link}"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        🛒 BUY NOW
-      </a>
-
-      <div class="affiliate-disclosure">
-
-        <h4>Affiliate Disclosure</h4>
+        <h3>
+        ⚠️ Enter Product Code
+        </h3>
 
         <p>
-          Some links on this website may be affiliate links. If you make a purchase through these links, we may earn a commission at no extra cost to you.
+        Please enter a valid product code.
         </p>
 
-        <p class="copyright">
-          © 2026 Tanvixa. All rights reserved.
+        </div>
+
+        `;
+
+        return;
+
+    }
+
+
+
+
+
+
+    let product = products.find(item => item.code === code);
+
+
+
+
+
+
+    if(!product){
+
+
+        result.innerHTML = `
+
+
+        <div class="welcome-card">
+
+
+        <h3>
+        ❌ Product Not Found
+        </h3>
+
+
+        <p>
+        Please check your product code and try again.
         </p>
 
-      </div>
+
+        </div>
+
+
+        `;
+
+
+        return;
+
+    }
+
+
+
+
+
+
+
+
+    // FEATURES HTML
+
+
+    let featureHTML = "";
+
+
+
+    product.features.forEach(feature => {
+
+
+        featureHTML += `
+
+        <li>
+        ✔️ ${feature}
+        </li>
+
+        `;
+
+
+    });
+
+
+
+
+
+
+
+
+
+    // PRODUCT CARD DISPLAY
+
+
+    result.innerHTML = `
+
+
+
+    <div class="product-card">
+
+
+
+        <img 
+        src="${product.image}" 
+        alt="${product.name}"
+        class="product-image"
+        >
+
+
+
+
+        <h2>
+        ${product.name}
+        </h2>
+
+
+
+
+        <p class="product-description">
+
+        ${product.description.replace(/\n/g,"<br>")}
+
+        </p>
+
+
+
+
+
+        <ul class="product-features">
+
+        ${featureHTML}
+
+        </ul>
+
+
+
+
+
+
+        <a 
+        href="${product.link}" 
+        target="_blank"
+        class="buy-button"
+        >
+
+        🛒 BUY NOW
+
+        </a>
+
+
+
+
+
+
+        <div class="affiliate-box">
+
+
+        <p>
+
+        Some links on this website may be affiliate links. 
+        If you make a purchase through these links, we may earn a commission 
+        at no extra cost to you.
+
+        </p>
+
+
+        </div>
+
+
+
+
 
     </div>
-  `;
+
+
+
+    `;
+
+
+
 }
+
+
+
+
+
+
+
+
+
+// ENTER BUTTON SUPPORT
+
+
+document
+.getElementById("productCode")
+.addEventListener("keypress", function(event){
+
+
+    if(event.key === "Enter"){
+
+        searchProduct();
+
+    }
+
+
+});
