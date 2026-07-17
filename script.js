@@ -1,11 +1,14 @@
 /* =====================================
    TANVIXA PRODUCT SEARCH SYSTEM
-   FINAL UPGRADED VERSION
+   UPGRADED FINAL VERSION
 ===================================== */
 
 
 let products = [];
+
 let productsLoaded = false;
+
+
 
 
 
@@ -16,12 +19,15 @@ let productsLoaded = false;
 
 fetch("products.json")
 
+
 .then(response => {
 
 
     if(!response.ok){
 
-        throw new Error("products.json not found");
+        throw new Error(
+            "Unable to load products.json"
+        );
 
     }
 
@@ -37,10 +43,14 @@ fetch("products.json")
 
     products = data;
 
+
     productsLoaded = true;
 
 
-    console.log("Products Loaded:", products.length);
+    console.log(
+        "Tanvixa Products Loaded:",
+        products.length
+    );
 
 
 })
@@ -49,7 +59,13 @@ fetch("products.json")
 .catch(error => {
 
 
-    console.error("Product Loading Error:", error);
+    console.error(
+        "Products Loading Error:",
+        error
+    );
+
+
+    productsLoaded = false;
 
 
 });
@@ -71,29 +87,30 @@ function searchProduct(){
 
 
 
-    let code = document
+    const input = document.getElementById(
+        "productCode"
+    );
 
-    .getElementById("productCode")
 
-    .value
 
+    const result = document.getElementById(
+        "result"
+    );
+
+
+
+    let code = input.value
     .trim()
-
     .toUpperCase();
 
 
 
 
 
-    let result = document.getElementById("result");
 
 
 
-
-
-
-
-    // Check JSON Loading
+    // PRODUCTS LOADING CHECK
 
 
     if(!productsLoaded){
@@ -135,7 +152,8 @@ function searchProduct(){
 
 
 
-    // Empty Input Check
+
+    // EMPTY INPUT CHECK
 
 
     if(code === ""){
@@ -153,7 +171,7 @@ function searchProduct(){
 
 
             <p>
-            Please enter a product code like GL001
+            Please enter a code like GL001
             </p>
 
 
@@ -175,8 +193,7 @@ function searchProduct(){
 
 
 
-
-    // Search Loading Animation
+    // SEARCH ANIMATION
 
 
     result.innerHTML = `
@@ -210,22 +227,20 @@ function searchProduct(){
 
 
 
-
     setTimeout(()=>{
 
 
 
+        const product = products.find(item =>
 
 
-        let product = products.find(item => 
+            item.code &&
 
             item.code
-
             .toString()
-
             .trim()
-
             .toUpperCase() === code
+
 
         );
 
@@ -236,12 +251,10 @@ function searchProduct(){
 
 
 
-
-        // Product Not Found
+        // PRODUCT NOT FOUND
 
 
         if(!product){
-
 
 
             result.innerHTML = `
@@ -261,7 +274,7 @@ function searchProduct(){
 
 
                 <small>
-                Try code example: GL001
+                Example: GL001
                 </small>
 
 
@@ -283,20 +296,20 @@ function searchProduct(){
 
 
 
-
-        // Create Feature List
+        // CREATE FEATURE LIST
 
 
         let featureHTML = "";
 
 
 
-        if(product.features && product.features.length > 0){
-
+        if(
+            product.features &&
+            product.features.length > 0
+        ){
 
 
             product.features.forEach(feature => {
-
 
 
                 featureHTML += `
@@ -310,9 +323,7 @@ function searchProduct(){
                 `;
 
 
-
             });
-
 
 
         }
@@ -324,8 +335,10 @@ function searchProduct(){
 
 
 
+        // =====================================
+        // DISPLAY PRODUCT CARD
+        // =====================================
 
-        // Display Product Card
 
 
         result.innerHTML = `
@@ -350,7 +363,9 @@ function searchProduct(){
 
             loading="lazy"
 
-            onerror="this.src='images/logo.png'"
+            decoding="async"
+
+            onerror="this.src='images/tanvixalogo.jpg'"
 
             >
 
@@ -372,13 +387,12 @@ function searchProduct(){
 
 
 
-
             <p class="product-description">
 
-            ${product.description.replace(/\n/g,"<br><br>")}
+            ${product.description
+            .replace(/\n/g,"<br><br>")}
 
             </p>
-
 
 
 
@@ -433,9 +447,9 @@ function searchProduct(){
 
             <p>
 
-            Some links on this website may be affiliate links. 
-            If you make a purchase through these links, we may earn a commission 
-            at no extra cost to you.
+            Some links on this website may be affiliate links.
+            If you make a purchase through these links,
+            we may earn a commission at no extra cost to you.
 
             </p>
 
@@ -458,14 +472,14 @@ function searchProduct(){
 
 
 
-
     },800);
 
 
 
-
-
 }
+
+
+
 
 
 
@@ -484,7 +498,9 @@ document
 
 .getElementById("productCode")
 
-.addEventListener("keypress", function(event){
+.addEventListener(
+"keypress",
+function(event){
 
 
 
