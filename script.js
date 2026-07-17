@@ -1,30 +1,59 @@
 /* =====================================
    TANVIXA PRODUCT SEARCH SYSTEM
-   UPGRADED VERSION
+   FINAL UPGRADED VERSION
 ===================================== */
 
 
 let products = [];
+let productsLoaded = false;
 
 
 
-// Load Products JSON
+// =====================================
+// LOAD PRODUCTS JSON
+// =====================================
+
 
 fetch("products.json")
 
-.then(response => response.json())
+.then(response => {
 
-.then(data => {
 
-    products = data;
+    if(!response.ok){
+
+        throw new Error("products.json not found");
+
+    }
+
+
+    return response.json();
+
 
 })
 
+
+.then(data => {
+
+
+    products = data;
+
+    productsLoaded = true;
+
+
+    console.log("Products Loaded:", products.length);
+
+
+})
+
+
 .catch(error => {
 
-    console.log("Product loading error:", error);
+
+    console.error("Product Loading Error:", error);
+
 
 });
+
 
 
 
@@ -41,11 +70,18 @@ fetch("products.json")
 function searchProduct(){
 
 
+
     let code = document
+
     .getElementById("productCode")
+
     .value
+
     .trim()
+
     .toUpperCase();
+
+
 
 
 
@@ -55,12 +91,58 @@ function searchProduct(){
 
 
 
-    // Empty Search Check
+
+
+    // Check JSON Loading
+
+
+    if(!productsLoaded){
+
+
+        result.innerHTML = `
+
+
+        <div class="loading-card">
+
+
+            <div class="loader"></div>
+
+
+            <h3>
+            Loading Products...
+            </h3>
+
+
+            <p>
+            Please wait a moment
+            </p>
+
+
+        </div>
+
+
+        `;
+
+
+        return;
+
+
+    }
+
+
+
+
+
+
+
+    // Empty Input Check
+
 
     if(code === ""){
 
 
         result.innerHTML = `
+
 
         <div class="error-card">
 
@@ -77,10 +159,12 @@ function searchProduct(){
 
         </div>
 
+
         `;
 
 
         return;
+
 
     }
 
@@ -90,7 +174,9 @@ function searchProduct(){
 
 
 
-    // Loading Animation
+
+
+    // Search Loading Animation
 
 
     result.innerHTML = `
@@ -108,7 +194,7 @@ function searchProduct(){
 
 
         <p>
-        Please wait
+        Finding your gadget
         </p>
 
 
@@ -122,11 +208,28 @@ function searchProduct(){
 
 
 
-    setTimeout(() => {
 
 
 
-        let product = products.find(item => item.code === code);
+    setTimeout(()=>{
+
+
+
+
+
+        let product = products.find(item => 
+
+            item.code
+
+            .toString()
+
+            .trim()
+
+            .toUpperCase() === code
+
+        );
+
+
 
 
 
@@ -138,6 +241,7 @@ function searchProduct(){
 
 
         if(!product){
+
 
 
             result.innerHTML = `
@@ -152,12 +256,12 @@ function searchProduct(){
 
 
                 <p>
-                Please check your product code and try again.
+                We couldn't find this product.
                 </p>
 
 
                 <small>
-                Example: GL001
+                Try code example: GL001
                 </small>
 
 
@@ -169,6 +273,7 @@ function searchProduct(){
 
             return;
 
+
         }
 
 
@@ -177,35 +282,50 @@ function searchProduct(){
 
 
 
-        // Feature List Create
+
+
+        // Create Feature List
 
 
         let featureHTML = "";
 
 
-        product.features.forEach(feature => {
 
-
-            featureHTML += `
-
-            <li>
-            ✔️ ${feature}
-            </li>
-
-            `;
-
-
-        });
+        if(product.features && product.features.length > 0){
 
 
 
+            product.features.forEach(feature => {
+
+
+
+                featureHTML += `
+
+
+                <li>
+                ✔️ ${feature}
+                </li>
+
+
+                `;
+
+
+
+            });
+
+
+
+        }
 
 
 
 
 
 
-        // Show Product
+
+
+
+        // Display Product Card
 
 
         result.innerHTML = `
@@ -216,20 +336,38 @@ function searchProduct(){
 
 
 
-            <img 
-src="${product.image}" 
-alt="${product.name}"
-class="product-image"
-onerror="this.src='images/logo.png'"
->
+
+
+
+
+            <img
+
+            src="${product.image}"
+
+            alt="${product.name}"
+
+            class="product-image"
+
+            loading="lazy"
+
+            onerror="this.src='images/logo.png'"
+
+            >
+
+
 
 
 
 
 
             <h2>
+
             ${product.name}
+
             </h2>
+
+
+
 
 
 
@@ -247,9 +385,13 @@ onerror="this.src='images/logo.png'"
 
 
 
+
+
             <ul class="product-features">
 
+
             ${featureHTML}
+
 
             </ul>
 
@@ -259,15 +401,26 @@ onerror="this.src='images/logo.png'"
 
 
 
-            <a 
-            href="${product.link}" 
+
+
+            <a
+
+            href="${product.link}"
+
             target="_blank"
+
+            rel="noopener noreferrer"
+
             class="buy-button"
+
             >
 
             🛒 BUY NOW
 
+
             </a>
+
+
 
 
 
@@ -293,6 +446,8 @@ onerror="this.src='images/logo.png'"
 
 
 
+
+
         </div>
 
 
@@ -302,11 +457,16 @@ onerror="this.src='images/logo.png'"
 
 
 
+
+
     },800);
 
 
 
+
+
 }
+
 
 
 
@@ -321,15 +481,21 @@ onerror="this.src='images/logo.png'"
 
 
 document
+
 .getElementById("productCode")
+
 .addEventListener("keypress", function(event){
+
 
 
     if(event.key === "Enter"){
 
+
         searchProduct();
 
+
     }
+
 
 
 });
