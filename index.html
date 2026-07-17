@@ -2,127 +2,402 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanvixa - Find Smart Gadgets</title>
 
-<title>Tanvixa | Smart Gadget Finder</title>
+    <meta name="description" content="Tanvixa helps you find the latest smart gadgets, tech products and innovative devices with easy product search.">
 
-<meta name="description" content="Find the exact smart gadgets featured in our videos using the product code. Browse detailed product information, key features, and trusted buying links.">
+    <meta name="keywords" content="smart gadgets, tech gadgets, gadget reviews, best electronics, affiliate products">
 
-<meta name="keywords" content="smart gadgets, gadget finder, tech gadgets, product search, electronics, gadget reviews">
+    <meta name="author" content="Tanvixa">
 
-<meta name="author" content="Tanvixa">
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png">
 
-<meta name="robots" content="index, follow">
-
-<meta property="og:title" content="Tanvixa | Smart Gadget Finder">
-<meta property="og:description" content="Search featured gadgets by product code and discover detailed product information.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://tanvixa.github.io/">
-
-<link rel="icon" href="images/favicon.png">
-
-<link rel="stylesheet" href="style.css">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
+
 <body>
+
+
+<!-- ================= HEADER ================= -->
 
 <header class="header">
 
-    <h1>Tanvixa</h1>
+    <div class="logo-area">
+
+        <img src="images/logo.png" alt="Tanvixa Logo">
+
+        <h1>
+            Tanvixa
+        </h1>
+
+    </div>
+
 
     <p class="tagline">
-        Smart Gadget Discovery Platform
+        Discover Smart Gadgets & Tech Innovations 🚀
     </p>
+
 
 </header>
 
+
+
+
+
+<!-- ================= HERO SECTION ================= -->
+
+
 <section class="hero">
 
+
     <h2>
-        Find Featured Gadgets Instantly
+        Find Your Gadget Instantly 🔎
     </h2>
 
+
     <p>
-        Search using the product code shown in our videos to quickly access detailed specifications, key features, and the official product page.
+        Copy the product code from our videos and search it here to get product details.
     </p>
 
-</section>
 
-<section class="search-section">
 
-    <input
-        type="text"
-        id="searchInput"
+    <div class="search-box">
+
+
+        <input 
+        type="text" 
+        id="productCode"
         placeholder="Enter Product Code (Example: GL001)"
-        onkeypress="if(event.key==='Enter'){searchProduct();}"
-    >
+        autocomplete="off"
+        >
 
-    <button onclick="searchProduct()">
-        Search
-    </button>
+
+
+        <button onclick="searchProduct()">
+
+            🔍 Search
+
+        </button>
+
+
+    </div>
+
+
 
 </section>
 
-<section class="info-box">
 
-    <h3>How It Works</h3>
+
+
+
+<!-- ================= PRODUCT RESULT ================= -->
+
+
+<section class="product-section">
+
+
+    <div id="result">
+
+
+        <div class="welcome-card">
+
+
+            <h3>
+                Welcome to Tanvixa ✨
+            </h3>
+
+
+            <p>
+                Search your gadget code to see product details, features and buying options.
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+    <!-- ================= FEATURES SECTION ================= -->
+
+
+<section class="features">
+
+
+    <h2>
+        Why Choose Tanvixa? 💡
+    </h2>
+
+
+
+    <div class="feature-container">
+
+
+        <div class="feature-card">
+
+            <div class="icon">
+                🔎
+            </div>
+
+            <h3>
+                Easy Product Search
+            </h3>
+
+            <p>
+                Quickly find any gadget by entering the product code from our videos.
+            </p>
+
+        </div>
+
+
+
+
+
+        <div class="feature-card">
+
+            <div class="icon">
+                ⚡
+            </div>
+
+            <h3>
+                Latest Tech Gadgets
+            </h3>
+
+            <p>
+                Explore trending smart devices and innovative technology products.
+            </p>
+
+        </div>
+
+
+
+
+
+        <div class="feature-card">
+
+            <div class="icon">
+                🌎
+            </div>
+
+            <h3>
+                Global Shopping
+            </h3>
+
+            <p>
+                Discover products available from trusted online marketplaces worldwide.
+            </p>
+
+        </div>
+
+
+
+    </div>
+
+
+</section>
+
+
+
+
+
+
+<!-- ================= HOW IT WORKS ================= -->
+
+
+<section class="how-it-works">
+
+
+    <h2>
+        How It Works? 🚀
+    </h2>
+
+
 
     <div class="steps">
 
-        <div class="step">
-            <span>1</span>
-            <p>Watch our video.</p>
+
+
+        <div class="step-card">
+
+            <span>
+                1️⃣
+            </span>
+
+            <h3>
+                Copy Code
+            </h3>
+
+            <p>
+                Copy the product code shown in our YouTube videos.
+            </p>
+
         </div>
 
-        <div class="step">
-            <span>2</span>
-            <p>Copy the product code.</p>
+
+
+
+
+        <div class="step-card">
+
+            <span>
+                2️⃣
+            </span>
+
+            <h3>
+                Search Here
+            </h3>
+
+            <p>
+                Enter the code in the Tanvixa search box.
+            </p>
+
         </div>
 
-        <div class="step">
-            <span>3</span>
-            <p>Search the code here.</p>
+
+
+
+
+        <div class="step-card">
+
+            <span>
+                3️⃣
+            </span>
+
+            <h3>
+                Buy Product
+            </h3>
+
+            <p>
+                Check details and visit the product page.
+            </p>
+
         </div>
 
-        <div class="step">
-            <span>4</span>
-            <p>View product details and buy securely.</p>
-        </div>
+
 
     </div>
+
 
 </section>
 
-<div id="result"></div>
+<!-- ================= TRUST SECTION ================= -->
 
-<footer class="footer">
 
-    <h3>About Tanvixa</h3>
+<section class="trust-section">
+
+
+    <h2>
+        Safe & Simple Shopping Experience 🔐
+    </h2>
+
 
     <p>
-        Tanvixa helps users quickly discover technology products featured in our content. Our platform provides easy product lookup, specifications, and trusted purchase links for gadgets and consumer electronics.
+        Tanvixa helps you discover useful gadgets with product information and direct buying options from online marketplaces.
     </p>
 
-    <div class="footer-links">
 
-        <a href="#">Privacy Policy</a>
+</section>
 
-        <a href="#">Affiliate Disclosure</a>
 
-        <a href="#">Contact</a>
+
+
+
+
+
+<!-- ================= AFFILIATE DISCLOSURE ================= -->
+
+
+<section class="affiliate-disclosure">
+
+
+    <h3>
+        Affiliate Disclosure
+    </h3>
+
+
+    <p>
+        Some links on this website may be affiliate links. If you make a purchase through these links, we may earn a commission at no extra cost to you.
+    </p>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- ================= SOCIAL SECTION ================= -->
+
+
+<section class="social-section">
+
+
+    <h2>
+        Follow Tanvixa 🌎
+    </h2>
+
+
+    <p>
+        Stay updated with the latest smart gadgets, technology news and product discoveries.
+    </p>
+
+
+
+    <div class="social-links">
+
+
+        <a href="#" target="_blank">
+            ▶️ YouTube
+        </a>
+
+
+        <a href="#" target="_blank">
+            📘 Facebook
+        </a>
+
+
+        <a href="#" target="_blank">
+            📸 Instagram
+        </a>
+
 
     </div>
 
-    <p class="copyright">
+
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+
+<footer>
+
+
+    <p>
         © 2026 Tanvixa. All Rights Reserved.
     </p>
 
+
 </footer>
 
+
+
+<!-- JavaScript File -->
+
 <script src="script.js"></script>
+
 
 </body>
 
