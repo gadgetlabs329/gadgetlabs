@@ -1,13 +1,14 @@
-/* ===============================
+/* =====================================
    TANVIXA PRODUCT SEARCH SYSTEM
-================================ */
+   UPGRADED VERSION
+===================================== */
 
 
 let products = [];
 
 
 
-// Load Product Data
+// Load Products JSON
 
 fetch("products.json")
 
@@ -31,9 +32,10 @@ fetch("products.json")
 
 
 
-// ===============================
+
+// =====================================
 // SEARCH PRODUCT FUNCTION
-// ===============================
+// =====================================
 
 
 function searchProduct(){
@@ -52,62 +54,28 @@ function searchProduct(){
 
 
 
+
+    // Empty Search Check
+
     if(code === ""){
 
 
         result.innerHTML = `
 
-        <div class="welcome-card">
-
-        <h3>
-        ⚠️ Enter Product Code
-        </h3>
-
-        <p>
-        Please enter a valid product code.
-        </p>
-
-        </div>
-
-        `;
-
-        return;
-
-    }
+        <div class="error-card">
 
 
+            <h3>
+            ⚠️ Enter Product Code
+            </h3>
 
 
-
-
-    let product = products.find(item => item.code === code);
-
-
-
-
-
-
-    if(!product){
-
-
-        result.innerHTML = `
-
-
-        <div class="welcome-card">
-
-
-        <h3>
-        ❌ Product Not Found
-        </h3>
-
-
-        <p>
-        Please check your product code and try again.
-        </p>
+            <p>
+            Please enter a product code like GL001
+            </p>
 
 
         </div>
-
 
         `;
 
@@ -122,122 +90,218 @@ function searchProduct(){
 
 
 
-
-    // FEATURES HTML
-
-
-    let featureHTML = "";
-
-
-
-    product.features.forEach(feature => {
-
-
-        featureHTML += `
-
-        <li>
-        ✔️ ${feature}
-        </li>
-
-        `;
-
-
-    });
-
-
-
-
-
-
-
-
-
-    // PRODUCT CARD DISPLAY
+    // Loading Animation
 
 
     result.innerHTML = `
 
 
-
-    <div class="product-card">
-
+    <div class="loading-card">
 
 
-        <img 
-        src="${product.image}" 
-        alt="${product.name}"
-        class="product-image"
-        >
+        <div class="loader"></div>
 
 
-
-
-        <h2>
-        ${product.name}
-        </h2>
-
-
-
-
-        <p class="product-description">
-
-        ${product.description.replace(/\n/g,"<br>")}
-
-        </p>
-
-
-
-
-
-        <ul class="product-features">
-
-        ${featureHTML}
-
-        </ul>
-
-
-
-
-
-
-        <a 
-        href="${product.link}" 
-        target="_blank"
-        class="buy-button"
-        >
-
-        🛒 BUY NOW
-
-        </a>
-
-
-
-
-
-
-        <div class="affiliate-box">
+        <h3>
+        Searching Product...
+        </h3>
 
 
         <p>
-
-        Some links on this website may be affiliate links. 
-        If you make a purchase through these links, we may earn a commission 
-        at no extra cost to you.
-
+        Please wait
         </p>
+
+
+    </div>
+
+
+    `;
+
+
+
+
+
+
+    setTimeout(() => {
+
+
+
+        let product = products.find(item => item.code === code);
+
+
+
+
+
+
+
+        // Product Not Found
+
+
+        if(!product){
+
+
+            result.innerHTML = `
+
+
+            <div class="error-card">
+
+
+                <h3>
+                🔍 Product Not Found
+                </h3>
+
+
+                <p>
+                Please check your product code and try again.
+                </p>
+
+
+                <small>
+                Example: GL001
+                </small>
+
+
+            </div>
+
+
+            `;
+
+
+            return;
+
+        }
+
+
+
+
+
+
+
+        // Feature List Create
+
+
+        let featureHTML = "";
+
+
+        product.features.forEach(feature => {
+
+
+            featureHTML += `
+
+            <li>
+            ✔️ ${feature}
+            </li>
+
+            `;
+
+
+        });
+
+
+
+
+
+
+
+
+
+        // Show Product
+
+
+        result.innerHTML = `
+
+
+
+        <div class="product-card">
+
+
+
+            <img 
+            src="${product.image}" 
+            alt="${product.name}"
+            class="product-image"
+            >
+
+
+
+
+
+            <h2>
+            ${product.name}
+            </h2>
+
+
+
+
+
+            <p class="product-description">
+
+            ${product.description.replace(/\n/g,"<br><br>")}
+
+            </p>
+
+
+
+
+
+
+
+            <ul class="product-features">
+
+            ${featureHTML}
+
+            </ul>
+
+
+
+
+
+
+
+            <a 
+            href="${product.link}" 
+            target="_blank"
+            class="buy-button"
+            >
+
+            🛒 BUY NOW
+
+            </a>
+
+
+
+
+
+
+
+            <div class="affiliate-box">
+
+
+            <p>
+
+            Some links on this website may be affiliate links. 
+            If you make a purchase through these links, we may earn a commission 
+            at no extra cost to you.
+
+            </p>
+
+
+            </div>
+
+
+
 
 
         </div>
 
 
 
+        `;
 
 
-    </div>
 
 
-
-    `;
+    },800);
 
 
 
@@ -250,8 +314,9 @@ function searchProduct(){
 
 
 
-
-// ENTER BUTTON SUPPORT
+// =====================================
+// ENTER KEY SEARCH
+// =====================================
 
 
 document
