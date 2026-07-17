@@ -3,385 +3,389 @@
     "code": "GL001",
     "name": "Tenda 2K WiFi 6 Indoor PT Camera",
     "image": "images/GL001.jpg",
-    "description": "Designed for indoor monitoring, this camera captures clear video with a 3 MP sensor and helps you stay aware of activity through AI human detection and real-time alerts. It can also recognize pet movement and baby crying, making it useful for everyday home observation.\n\nIt connects through 2.4GHz WiFi 6 for remote access and supports one-touch calling for quick communication. The PT design, 10X digital zoom, and support for up to a 256GB TF card provide flexible viewing and local video storage for continuous use.",
+    "description": "This indoor security camera delivers clear monitoring with a 3 MP sensor and 2K video quality. It uses AI human detection to help identify activity and provides real-time alerts for home observation.\n\nThe camera supports WiFi 6 connectivity, one-touch calling, PT movement, 10X digital zoom, and TF card storage. It is designed for convenient remote viewing and everyday indoor security needs.",
     "features": [
-      "3 MP Sensor",
-      "2K Video Monitoring",
+      "3 MP Camera Sensor",
+      "2K HD Video Quality",
       "AI Human Detection",
-      "Pet & Baby Crying Detection",
-      "One-Touch Calling",
-      "10X Digital Zoom",
       "WiFi 6 Connectivity",
-      "Supports 256GB TF Card"
+      "10X Digital Zoom",
+      "TF Card Storage Support"
     ],
     "link": "https://s.click.aliexpress.com/e/_c3vxfFZ1"
   },
-  {
-"code":"GL002",
-"name":"Xiaomi Smart Camera 2K Indoor Security Camera",
-"image":"images/GL002.jpg",
-"description":"This indoor camera provides 2K image quality with a 360° panoramic viewing range for monitoring spaces through the Mi Home app. It supports clear video capture, low-light colour display, and digital zoom for flexible viewing.\n\nThe device includes AI human detection, two-way voice calls, and H.265 video encoding technology. It offers storage options with Micro SD card, NAS, and cloud storage support, along with mounting options and screen rotation features.",
-"features":[
-"2K ultra-clear HD image quality",
-"360° pan-tilt-zoom panoramic view",
-"AI human detection",
-"Two-way voice calls",
-"H.265 video encoding technology",
-"Micro SD card support",
-"NAS and cloud storage support",
-"180° screen rotation"
-],
-"link":"https://s.click.aliexpress.com/e/_c35RArq3"
-},
 
   {
-"code":"GL003",
-"name":"Runpu NDI PTZ AI Tracking Camera",
-"image":"images/GL003.jpg",
-"description":"Runpu NDI PTZ Camera is designed for video conferencing, live streaming, and church use. It uses a Sony 2 MP CMOS sensor to provide 1080P Full-HD video output with multiple connection options.\n\nThe camera supports AI Smart Tracking to follow moving subjects automatically. It offers optical zoom, flexible pan movement, and installation options for different indoor setups. It can connect through RJ45 with PoE support and works with Windows and macOS systems.",
-"features":[
-"AI Smart Tracking",
-"Sony 2 MP CMOS Sensor",
-"1080P Full-HD Video Output",
-"30x Optical Zoom",
-"0°–360° Pan Movement",
-"PoE Support",
-"RJ45 Connectivity",
-"Windows and macOS Compatibility"
-],
-"link":"https://s.click.aliexpress.com/e/_c3mb2SG7"
-},
+    "code": "GL002",
+    "name": "Xiaomi Smart Camera 2K Indoor Security Camera",
+    "image": "images/GL002.jpg",
+    "description": "This Xiaomi indoor security camera provides 2K video quality with a 360° panoramic view for flexible home monitoring. It connects with the Mi Home app and supports clear viewing in different lighting conditions.\n\nThe camera includes AI human detection, two-way voice calls, H.265 video encoding, and multiple storage options. Its compact design makes it suitable for home, office, and indoor security use.",
+    "features": [
+      "2K HD Video Quality",
+      "360° Panoramic View",
+      "AI Human Detection",
+      "Two-Way Voice Calling",
+      "H.265 Video Encoding",
+      "Micro SD Storage Support"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c35RArq3"
+  },
 
   {
-"code":"GL004",
-"name":"SHIWOJIA 36X Zoom Solar Security Camera",
-"image":"images/GL004.jpg",
-"description":"This outdoor security camera uses 36X optical zoom and 12MP (6K) resolution to capture clear details from distant areas. It supports 4G SIM or 2.4GHz Wi-Fi connection and offers 360° viewing with Pan/Tilt/Zoom technology.\n\nIt includes a 10W solar panel, 20,000mAh rechargeable battery, PIR human detection, night vision, and cloud or TF Card storage. The camera can be accessed remotely through the UBOX app on Android and iOS devices.",
-"features":[
-"36X Optical Zoom",
-"12MP (6K) Resolution",
-"360° Panoramic View",
-"4G SIM and 2.4GHz Wi-Fi Support",
-"10W Solar Panel",
-"20,000mAh Rechargeable Battery",
-"PIR Human Detection",
-"Cloud and TF Card Storage"
-],
-"link":"https://s.click.aliexpress.com/e/_c3I6Zos7"
-},
+    "code": "GL003",
+    "name": "Runpu NDI PTZ AI Tracking Camera",
+    "image": "images/GL003.jpg",
+    "description": "Runpu NDI PTZ Camera is designed for video conferencing, streaming, and professional indoor setups. It provides 1080P Full HD video output with a Sony CMOS sensor and flexible connection options.\n\nThe camera features AI smart tracking, optical zoom, pan movement, and PoE support. It works with Windows and macOS systems for different professional video applications.",
+    "features": [
+      "AI Smart Tracking",
+      "1080P Full HD Output",
+      "Sony CMOS Sensor",
+      "Optical Zoom Support",
+      "PoE Network Support",
+      "Windows & macOS Support"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3mb2SG7"
+  },
 
   {
-"code": "GL005",
-"name": "KERUI Fingerprint Lock",
-"image": "images/GL005.jpg",
-"description": "KERUI Fingerprint Lock offers keyless access with a built-in rechargeable lithium battery and USB charging support. It uses fingerprint recognition for unlocking and has a zinc alloy body with IP67 waterproof protection.\n\nThe portable lock features a compact and lightweight design for storage and outdoor use. It supports multiple fingerprint storage and works without keys, passwords, Bluetooth, or an app.",
-"features": [
-"Fingerprint unlocking",
-"USB charging support",
-"Zinc alloy body",
-"IP67 waterproof design",
-"Rechargeable lithium battery"
-],
-"link": "https://s.click.aliexpress.com/e/_c4eqJF3H"
-},
+    "code": "GL004",
+    "name": "SHIWOJIA 36X Zoom Solar Security Camera",
+    "image": "images/GL004.jpg",
+    "description": "This outdoor solar security camera provides long-distance monitoring with high-resolution video and 36X optical zoom. It supports 4G SIM and WiFi connections for flexible outdoor installation.\n\nThe camera includes solar charging, rechargeable battery power, PIR human detection, night vision, and remote app access. It is suitable for monitoring outdoor areas such as yards, entrances, and properties.",
+    "features": [
+      "36X Optical Zoom",
+      "High Resolution Video",
+      "Solar Charging Support",
+      "4G SIM & WiFi Connection",
+      "PIR Human Detection",
+      "Night Vision Support"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3I6Zos7"
+  },
+
 
   {
-"code":"GL006",
-"name":"RAYKUBE V1 Bluetooth Fingerprint Smart Lock",
-"image":"images/GL006.jpg",
-"description":"This smart cylinder lock uses Bluetooth connectivity and offers multiple unlocking methods including APP, fingerprint, password, RFID card, and mechanical key access. It is designed for steel, wooden, brass, and stainless steel doors with an aluminium alloy body and dry battery power supply.\n\nThe lock includes biometric, key, and keypad functions with a reversible handle direction and polished finish type. It supports gateway connectivity and can be controlled through the available access options using Bluetooth technology.",
-"features":[
-"Bluetooth connectivity",
-"Fingerprint unlocking",
-"Password and card access",
-"Aluminium alloy material",
-"Reversible handle direction"
-],
-"link":"https://s.click.aliexpress.com/e/_c3tJSnJ5"
-},
+    "code": "GL005",
+    "name": "KERUI Fingerprint Lock",
+    "image": "images/GL005.jpg",
+    "description": "KERUI Fingerprint Lock provides keyless access with fingerprint recognition and a rechargeable lithium battery. Its compact design makes it suitable for personal storage, travel, and everyday security needs.\n\nThe lock features USB charging support, a zinc alloy body, and IP67 waterproof protection. It works without traditional keys or passwords and offers a convenient smart locking solution.",
+    "features": [
+      "Fingerprint Unlocking",
+      "Rechargeable Battery",
+      "USB Charging Support",
+      "Zinc Alloy Body",
+      "IP67 Waterproof Design",
+      "Keyless Security Access"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c4eqJF3H"
+  },
 
   {
-"code":"GL007",
-"name":"RAYKUBE K20 Biometric Smart Door Lock",
-"image":"images/GL007.jpg",
-"description":"This electronic door lock supports Tuya smart home platform and uses Bluetooth connectivity for smart access control. It allows unlocking through fingerprint, password, IC card, mechanical keys, and app control with a zinc alloy body.\n\nThe lock includes biometric, key, and keypad functions with gateway support and a reversible handle direction. It is suitable for different door types with thicknesses between 26–50 mm and uses dry battery power.",
-"features":[
-"Fingerprint unlocking",
-"Tuya smart home support",
-"Bluetooth connectivity",
-"IC card and password access",
-"Reversible handle direction"
-],
-"link":"https://s.click.aliexpress.com/e/_c3s9mYpN"
-},
+    "code": "GL006",
+    "name": "RAYKUBE V1 Bluetooth Fingerprint Smart Lock",
+    "image": "images/GL006.jpg",
+    "description": "RAYKUBE V1 Smart Lock provides multiple unlocking options including fingerprint, password, RFID card, app control, and mechanical key access. It is designed for different door types with a durable aluminium alloy body.\n\nThe lock uses Bluetooth technology and supports smart access control through connected devices. Its compact design provides convenient security options for modern homes and offices.",
+    "features": [
+      "Fingerprint Unlocking",
+      "Bluetooth Connectivity",
+      "Password Access",
+      "RFID Card Support",
+      "Aluminium Alloy Body",
+      "Smart App Control"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3tJSnJ5"
+  },
 
   {
-"code":"GL008",
-"name":"RAYKUBE L31 Smart Fingerprint Door Lock",
-"image":"images/GL008.jpg",
-"description":"This smart cylinder lock supports Tuya Smart Home Platform and can be controlled through Tuya or Smart Life App with Bluetooth connectivity. It provides multiple unlocking options including fingerprint, IC card, NFC, mechanical keys, and app access.\n\nThe lock is made with aluminium alloy material and features a polished finish with gateway support. It has a reversible handle direction and is suitable for steel, wooden, brass, stainless steel, and other doors.",
-"features":[
-"Fingerprint unlocking",
-"Tuya Smart Home support",
-"Bluetooth connectivity",
-"IC card and NFC access",
-"Reversible handle direction"
-],
-"link":"https://s.click.aliexpress.com/e/_c4qGOW4F"
-},
+    "code": "GL007",
+    "name": "RAYKUBE K20 Biometric Smart Door Lock",
+    "image": "images/GL007.jpg",
+    "description": "RAYKUBE K20 Smart Door Lock supports fingerprint, password, IC card, mechanical key, and app-based unlocking methods. It is designed with a zinc alloy body and supports smart home integration.\n\nThe lock offers Bluetooth connectivity, gateway support, and reversible handle direction. It is suitable for various door types and provides flexible access control options.",
+    "features": [
+      "Fingerprint Recognition",
+      "Bluetooth Connectivity",
+      "Tuya Smart Home Support",
+      "IC Card Access",
+      "Password Unlocking",
+      "Reversible Handle Design"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3s9mYpN"
+  },
 
   {
-"code":"GL012",
-"name":"GUHUAVMI ET571 Health Monitoring Smartwatch",
-"image":"images/GL012.jpg",
-"description":"This smartwatch is designed with a square display and supports multiple operating systems for Android and iOS users. It includes health monitoring functions, Bluetooth calling, voice assistant support, and smart features for everyday use.\n\nThe device has an AMOLED touchscreen, stainless steel band, and built-in battery with extended standby capability. It also provides activity tracking, sports modes, notifications, and various tools such as alarms, weather, and music playback.",
-"features":[
-"ECG and HRV heart health monitoring",
-"Blood pressure and blood oxygen monitoring",
-"Bluetooth calling support",
-"136+ multiple sports modes",
-"2.0-inch AMOLED full touch screen"
-],
-"link":"https://s.click.aliexpress.com/e/_c3nBQH7v"
-},
+    "code": "GL008",
+    "name": "RAYKUBE L31 Smart Fingerprint Door Lock",
+    "image": "images/GL008.jpg",
+    "description": "RAYKUBE L31 Smart Door Lock provides multiple access methods including fingerprint, NFC, IC card, mechanical key, and app control. It supports Tuya Smart Home Platform with Bluetooth connectivity.\n\nThe lock features an aluminium alloy body, gateway support, and reversible handle direction. It is designed for different door materials and modern smart home security setups.",
+    "features": [
+      "Fingerprint Unlocking",
+      "Tuya Smart Home Support",
+      "Bluetooth Connectivity",
+      "NFC & IC Card Access",
+      "Aluminium Alloy Body",
+      "App Control Support"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c4qGOW4F"
+  },
+
+  ,
 
   {
-"code": "GL009",
-"name": "3 Pack Outdoor Solar Motion Sensor Lights",
-"image": "images/GL009.jpg",
-"description": "These outdoor solar lights use solar power and are designed for areas such as porches, garages, yard entrances, and patios. They feature LED bulbs with a motion sensor for automatic operation.\n\nThe lights include a 1400mAh lithium battery, ABS body material, and a self-contained installation method. They come with included bulbs and batteries and support dimmable lighting.",
-"features": [
-"2800LM brightness",
-"Motion sensor operation",
-"Solar powered design",
-"1400mAh lithium battery",
-"LED light source"
-],
-"link": "https://s.click.aliexpress.com/e/_c3NwZFU7"
-},
+    "code": "GL009",
+    "name": "3 Pack Outdoor Solar Motion Sensor Lights",
+    "image": "images/GL009.jpg",
+    "description": "These outdoor solar lights are designed for entrances, gardens, garages, and outdoor areas. They use solar power with LED lighting and motion sensor technology for automatic operation.\n\nThe lights feature a rechargeable battery, durable ABS body, and easy installation design. They provide a convenient lighting solution for improving visibility around outdoor spaces.",
+    "features": [
+      "Solar Powered Design",
+      "Motion Sensor Detection",
+      "LED Light Source",
+      "Rechargeable Battery",
+      "Outdoor Weather Design",
+      "Easy Installation"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3NwZFU7"
+  },
 
   {
-"code": "GL010",
-"name": "Neon RGB LED Strip Light",
-"image": "images/GL010.jpg",
-"description": "This flexible neon LED strip light provides RGB lighting for gaming setups, living rooms, and bedrooms. It supports remote and app control for adjusting different colors and lighting combinations.\n\nThe strip uses SMD5050 LED chips with COB strip technology and a waterproof design. It is powered by DC and can be used to create different lighting atmospheres for various occasions.",
-"features": [
-"RGB color lighting",
-"Remote and app control",
-"Flexible neon LED strip design",
-"Waterproof construction",
-"SMD5050 LED chip"
-],
-"link": "https://s.click.aliexpress.com/e/_c3hR0ljv"
-},
+    "code": "GL010",
+    "name": "Neon RGB LED Strip Light",
+    "image": "images/GL010.jpg",
+    "description": "This flexible neon RGB LED strip light is designed for gaming rooms, bedrooms, and decorative lighting setups. It supports multiple colors and lighting effects through remote and app control.\n\nThe strip uses modern LED technology with a flexible design and waterproof construction. It helps create customized lighting environments for homes, entertainment spaces, and creative projects.",
+    "features": [
+      "RGB Color Lighting",
+      "Remote Control Support",
+      "App Control Function",
+      "Flexible Strip Design",
+      "Waterproof Construction",
+      "Decorative Lighting"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3hR0ljv"
+  },
 
   {
-"code": "GL011",
-"name": "220V COB LED Strip Light",
-"image": "images/GL011.jpg",
-"description": "This COB LED strip light features 296 LEDs per meter and provides flexible lighting options for rooms, kitchens, outdoor areas, and creative projects. It supports multiple color temperatures and offers dimmable lighting adjustment.\n\nThe strip uses AC 220V–230V power and has a waterproof IP65 design with flexible construction. It can be bent around curves, cut at 12.5cm intervals, and uses COB LED technology with a 50,000-hour lifespan.",
-"features": [
-"296 LEDs per meter",
-"COB LED technology",
-"IP65 waterproof design",
-"Dimmable lighting",
-"50,000-hour lifespan"
-],
-"link": "https://s.click.aliexpress.com/e/_c3nBQH7v"
-},
+    "code": "GL011",
+    "name": "220V COB LED Strip Light",
+    "image": "images/GL011.jpg",
+    "description": "This COB LED strip light provides bright and flexible lighting for homes, kitchens, outdoor areas, and creative decoration projects. It uses COB LED technology for a smooth lighting effect.\n\nThe strip features waterproof protection, dimmable lighting support, and flexible installation options. It can be adjusted for different spaces while providing long-lasting illumination.",
+    "features": [
+      "COB LED Technology",
+      "High Density LED Design",
+      "IP65 Waterproof Protection",
+      "Dimmable Lighting",
+      "Flexible Installation",
+      "Long Lifespan"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3nBQH7v"
+  },
 
   {
-"code": "GL013",
-"name": "Ultra 2 AMOLED Smart Watch",
-"image": "images/GL013.jpg",
-"description": "This smartwatch features a square AMOLED touch display with a sapphire crystal dial window and an alloy case. It works with Android and iOS devices through the Fit Cloud Pro app. Bluetooth calling and built-in GPS add convenient everyday connectivity.\n\nIt supports health monitoring, activity tracking, and a wide range of sports modes for daily use. You can also access message reminders, music control, customizable watch faces, calendar tools, and other built-in functions from your wrist.",
-"features": [
-"AMOLED full touch display",
-"Bluetooth calling support",
-"Built-in GPS",
-"Health and sleep monitoring",
-"Customizable watch faces"
-],
-"link": "https://s.click.aliexpress.com/e/_c4Tf5XHV"
-},
+    "code": "GL012",
+    "name": "GUHUAVMI ET571 Health Monitoring Smartwatch",
+    "image": "images/GL012.jpg",
+    "description": "This smartwatch features a large AMOLED display with smart functions for Android and iOS users. It supports Bluetooth calling, voice assistant features, sports tracking, and daily activity monitoring.\n\nThe watch includes health tracking tools, multiple sports modes, notifications, weather updates, music control, and other practical features. Its modern design makes it suitable for everyday wearable use.",
+    "features": [
+      "AMOLED Touch Display",
+      "Bluetooth Calling",
+      "Sports Mode Tracking",
+      "Health Monitoring Features",
+      "Voice Assistant Support",
+      "Smart Notifications"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3nBQH7v"
+  },
 
   {
-"code": "GL014",
-"name": "ECG Health Analysis Smart Watch",
-"image": "images/GL014.jpg",
-"description": "This smartwatch features a high-resolution AMOLED touch display with ECG and PPG health analysis through the G Band app. It supports Android and iOS devices, offering AI health insights and detailed body analysis in a simple wearable design.\n\nIt provides continuous health monitoring alongside activity tracking for everyday use. Additional tools such as Bluetooth calling, message reminders, wireless charging, customizable watch faces, and practical daily functions make it suitable for regular wear.",
-"features": [
-"AMOLED full touch display",
-"ECG and PPG health analysis",
-"AI health diagnosis",
-"Wireless magnetic charging",
-"Bluetooth calling support"
-],
-"link": "https://s.click.aliexpress.com/e/_c3T83HM3"
-},
+    "code": "GL013",
+    "name": "Ultra 2 AMOLED Smart Watch",
+    "image": "images/GL013.jpg",
+    "description": "This smartwatch features an AMOLED touchscreen display with a stylish design and support for Android and iOS devices. It includes Bluetooth calling, built-in GPS, and customizable watch faces.\n\nThe watch provides activity tracking, sports modes, smart notifications, music control, and daily tools. It is designed for users looking for a modern wearable with smart features.",
+    "features": [
+      "AMOLED Touch Display",
+      "Bluetooth Calling",
+      "Built-in GPS",
+      "Health Tracking",
+      "Custom Watch Faces",
+      "Smart Notifications"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c4Tf5XHV"
+  },
 
   {
-"code": "GL015",
-"name": "Women AMOLED ECG Smart Watch",
-"image": "images/GL015.jpg",
-"description": "This smartwatch features a round AMOLED touch screen with ECG monitoring, health tracking functions, and G band app integration. It supports Android and iOS devices with Bluetooth calling and customizable AI watch dials.\n\nThe watch provides activity tracking, sleep analysis, stress monitoring, and women's health features for daily use. It also includes practical tools such as message reminders, music control, weather display, and multiple time functions.",
-"features": [
-"AMOLED full touch screen",
-"ECG monitoring support",
-"Bluetooth calling",
-"AI customizable dials",
-"Health and activity tracking"
-],
-"link": "https://s.click.aliexpress.com/e/_c3DdE5Bp"
-},
+    "code": "GL014",
+    "name": "ECG Health Analysis Smart Watch",
+    "image": "images/GL014.jpg",
+    "description": "This smartwatch features an AMOLED display with ECG and PPG-based health tracking functions. It supports Android and iOS devices with Bluetooth calling and smart app connectivity.\n\nThe device includes activity tracking, sleep monitoring, message notifications, wireless charging, and customizable watch faces. It combines smart features with a modern wearable design for daily use.",
+    "features": [
+      "AMOLED Full Touch Display",
+      "ECG & PPG Tracking",
+      "Bluetooth Calling",
+      "Wireless Charging",
+      "Sleep Monitoring",
+      "Custom Watch Faces"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3T83HM3"
+  },
 
   {
-"code": "GL016",
-"name": "Ultra Thin AMOLED Smart Watch",
-"image": "images/GL016.jpg",
-"description": "This smartwatch features a 2.0-inch AMOLED full touch display with always-on display support and a square design. It supports Android and iOS devices with Bluetooth calling, AI voice assistant, and customizable watch faces.\n\nThe watch provides health monitoring, activity tracking, and multiple sports modes for everyday use. It also includes practical functions such as music control, notifications, weather display, phone finding, and NFC door unlocking.",
-"features": [
-"2.0-inch AMOLED full touch display",
-"Always-on display support",
-"Bluetooth calling",
-"AI voice assistant",
-"IP68 waterproof protection"
-],
-"link": "https://s.click.aliexpress.com/e/_c4exn1JZ"
-},
+    "code": "GL015",
+    "name": "Women AMOLED ECG Smart Watch",
+    "image": "images/GL015.jpg",
+    "description": "This smartwatch features a round AMOLED display with smart health and activity tracking functions. It supports Android and iOS devices with Bluetooth calling and customizable watch faces.\n\nThe watch includes sports tracking, sleep monitoring, stress tracking, notifications, music control, and daily utility tools. Its stylish design makes it suitable for everyday wearable use.",
+    "features": [
+      "AMOLED Display",
+      "ECG Monitoring Support",
+      "Bluetooth Calling",
+      "Activity Tracking",
+      "Sleep Monitoring",
+      "Custom Watch Faces"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3DdE5Bp"
+  },
 
   {
-"code": "GL017",
-"name": "OnePlus Solar Fast Charging Power Bank",
-"image": "images/GL017.jpg",
-"description": "This portable power bank features a polymer lithium battery, built-in charging cables, and a digital display that shows the remaining battery level. It also supports solar charging when placed in sunlight and works with many USB compatible digital devices.\n\nFast charging support and multiple output ports make it suitable for charging smartphones, tablets, and other compatible devices. Its compact design, LED flashlight, and airplane-friendly construction add convenience for everyday travel and outdoor use.",
-"features": [
-"Digital battery display",
-"Fast charging support",
-"Built-in charging cables",
-"Solar charging capability",
-"Multiple output ports"
-],
-"link": "https://s.click.aliexpress.com/e/_c3Gk1cab"
-},
+    "code": "GL016",
+    "name": "Ultra Thin AMOLED Smart Watch",
+    "image": "images/GL016.jpg",
+    "description": "This ultra-thin smartwatch features a large AMOLED touch display with always-on display support. It works with Android and iOS devices and provides Bluetooth calling with AI voice assistant features.\n\nThe watch includes health tracking, sports modes, smart notifications, music control, weather updates, and NFC functions. Its slim design provides a comfortable experience for everyday wear.",
+    "features": [
+      "AMOLED Touch Display",
+      "Always-On Display",
+      "Bluetooth Calling",
+      "AI Voice Assistant",
+      "IP68 Water Resistance",
+      "Sports Tracking"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c4exn1JZ"
+  },
+
+  ,
 
   {
-"code": "GL018",
-"name": "KUULAA Qi2 Magnetic Power Bank 10000mAh",
-"image": "images/GL018.jpg",
-"description": "This portable power bank features a 10000mAh Li-Polymer battery with Qi2 magnetic wireless charging for compatible devices. Its metal shell offers a durable design, while the battery status indicator helps you monitor the remaining power during daily use.\n\nIt supports 20W PD fast charging through the USB Type-C port and two-way quick charge technology for both charging the power bank and connected devices. A built-in LED lamp adds extra convenience in low-light conditions.",
-"features": [
-"Qi2 magnetic wireless charging",
-"PD fast charging",
-"Two-way quick charge",
-"Battery status indicator",
-"Built-in LED lamp"
-],
-"link": "https://s.click.aliexpress.com/e/_c2vWqeFH"
-},
-
-
-{
-"code": "GL019",
-"name": "Baseus 30000mAh 65W Fast Charging Power Bank",
-"image": "images/GL019.jpg",
-"description": "This portable power bank features an approximately 30000mAh battery with a digital display for monitoring the remaining battery level. It is designed for charging smartphones, tablets, laptops, and other compatible devices through multiple charging ports.\n\nThe USB Type-C port supports up to 65W PD fast charging and two-way quick charge technology for both input and output. Its compact plastic body allows convenient portability while supporting simultaneous charging for multiple compatible devices.",
-"features": [
-"Digital battery display",
-"PD fast charging",
-"Two-way quick charge",
-"Multiple charging ports",
-"USB Type-C input and output"
-],
-"link": "https://s.click.aliexpress.com/e/_c4KbxenH"
-},
+    "code": "GL017",
+    "name": "OnePlus Solar Fast Charging Power Bank",
+    "image": "images/GL017.jpg",
+    "description": "This portable power bank features a high-capacity battery with built-in charging cables and a digital display for checking remaining power. It supports solar charging and works with various USB-compatible devices.\n\nThe power bank provides fast charging support, multiple output options, LED flashlight functionality, and a portable design. It is suitable for travel, outdoor activities, and everyday charging needs.",
+    "features": [
+      "Digital Battery Display",
+      "Fast Charging Support",
+      "Built-in Charging Cables",
+      "Solar Charging Function",
+      "Multiple Output Ports",
+      "Portable Design"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3Gk1cab"
+  },
 
   {
-"code": "GL020",
-"name": "Mini 50000mAh Fast Charging Power Bank",
-"image": "images/GL020.jpg",
-"description": "This portable power bank features a 50000mAh Li-Polymer battery with built-in charging cables for compatible Lightning and USB Type-C devices. A digital display shows the remaining battery level, while the compact design makes it convenient to carry.\n\nIt supports up to 20W fast charging and includes an integrated stand for hands-free use while charging. Built-in safety protection helps guard against overcharge, overdischarge, overheating, and short circuits during everyday use.",
-"features": [
-"Built-in charging cables",
-"Digital battery display",
-"Fast charging support",
-"Integrated viewing stand",
-"Safety protection system"
-],
-"link": "https://s.click.aliexpress.com/e/_c3kkWz6J"
-},
+    "code": "GL018",
+    "name": "KUULAA Qi2 Magnetic Power Bank 10000mAh",
+    "image": "images/GL018.jpg",
+    "description": "This portable power bank features a 10000mAh battery with Qi2 magnetic wireless charging support for compatible devices. It includes USB Type-C connectivity and a durable metal shell design.\n\nThe device supports 20W PD fast charging, two-way charging technology, battery status display, and a built-in LED lamp. It provides a convenient charging solution for daily mobile use.",
+    "features": [
+      "10000mAh Battery Capacity",
+      "Qi2 Magnetic Wireless Charging",
+      "20W PD Fast Charging",
+      "USB Type-C Support",
+      "Battery Status Display",
+      "Built-in LED Lamp"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c2vWqeFH"
+  },
 
   {
-"code":"GL021",
-"name":"Baseus 30000mAh 65W Power Bank",
-"image":"images/GL021.jpg",
-"description":"This portable power bank has a 30000mAh battery capacity and supports up to 65W output for charging smartphones, laptops, and tablets. It uses USB Type-C PD3.0 fast charging and includes a digital display to show the remaining battery level.\n\nThe device features a portable design with multiple USB outputs for charging several devices. It supports two-way quick charge and is compatible with various smartphones, tablets, and laptops.",
-"features":[
-"30000mAh battery capacity",
-"65W USB Type-C PD3.0 fast charging",
-"Digital battery display",
-"Multiple USB outputs",
-"Two-way Quick Charge support"
-],
-"link":"https://s.click.aliexpress.com/e/_c3MSb77z"
-},
+    "code": "GL019",
+    "name": "Baseus 30000mAh 65W Fast Charging Power Bank",
+    "image": "images/GL019.jpg",
+    "description": "This Baseus power bank features a 30000mAh battery capacity and supports fast charging for smartphones, tablets, and compatible laptops. It includes a digital display to show the remaining battery level.\n\nThe device supports USB Type-C PD charging, multiple ports, and two-way charging technology. Its portable design makes it useful for travel, work, and everyday device charging.",
+    "features": [
+      "30000mAh Battery Capacity",
+      "65W PD Fast Charging",
+      "Digital Battery Display",
+      "Multiple Charging Ports",
+      "USB Type-C Support",
+      "Two-Way Charging"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c4KbxenH"
+  },
 
   {
-"code":"GL022",
-"name":"QOOVI 50000mAh 100W Power Bank",
-"image":"images/GL022.jpg",
-"description":"This portable power bank features a 50000mAh Li-Polymer battery and supports up to 100W fast charging for laptops, smartphones, and other devices. It includes a TFT digital display and built-in cable for convenient charging and battery status checking.\n\nThe device supports USB Type-C input, dual USB outputs, and two-way quick charge technology. It is compatible with various laptops, iPhone, Samsung, Xiaomi, Huawei, and other supported devices.",
-"features":[
-"50000mAh Li-Polymer battery",
-"100W USB Type-C fast charging",
-"TFT digital display",
-"Built-in charging cable",
-"Two-way Quick Charge support"
-],
-"link":"https://s.click.aliexpress.com/e/_c2uvGXD1"
-},
+    "code": "GL020",
+    "name": "Mini 50000mAh Fast Charging Power Bank",
+    "image": "images/GL020.jpg",
+    "description": "This portable power bank features a large 50000mAh battery with built-in charging cables and a digital display. It supports fast charging for smartphones and other compatible USB devices.\n\nThe device includes an integrated stand, safety protection system, and convenient portable design. It is suitable for users who need extended battery capacity during travel and daily activities.",
+    "features": [
+      "50000mAh Battery Capacity",
+      "Built-in Charging Cables",
+      "Fast Charging Support",
+      "Digital Battery Display",
+      "Safety Protection System",
+      "Portable Stand Design"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3kkWz6J"
+  },
 
   {
-"code":"GL023",
-"name":"KUULAA Qi2 Magnetic 10000mAh Power Bank",
-"image":"images/GL023.jpg",
-"description":"This portable power bank features a 10000mAh Li-Polymer battery with Qi2 Magnetic Wireless Charging and 20W PD fast charging support. It is designed for compatible devices and includes USB Type-C connectivity for charging.\n\nThe device supports two-way quick charge technology for both charging the power bank and connected devices. It also includes an LED status indicator, built-in LED lamp, and metal shell design.",
-"features":[
-"10000mAh Li-Polymer battery",
-"Qi2 Magnetic Wireless Charging",
-"20W PD Fast Charging",
-"LED Status Indicator",
-"Built-in LED Lamp"
-],
-"link":"https://s.click.aliexpress.com/e/_c3WmR9yX"
-},
+    "code": "GL021",
+    "name": "Baseus 30000mAh 65W Power Bank",
+    "image": "images/GL021.jpg",
+    "description": "This Baseus portable power bank provides a 30000mAh battery capacity with 65W USB Type-C PD fast charging support. It is designed for charging smartphones, tablets, laptops, and other compatible devices.\n\nThe power bank includes a digital display, multiple USB outputs, and two-way charging technology. Its compact design provides a practical charging option for home, office, and travel use.",
+    "features": [
+      "30000mAh Battery Capacity",
+      "65W USB Type-C PD Charging",
+      "Digital Battery Display",
+      "Multiple USB Outputs",
+      "Two-Way Quick Charge",
+      "Portable Design"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3MSb77z"
+  },
 
   {
-"code":"GL024",
-"name":"200000mAh 120W Solar Power Bank",
-"image":"images/GL024.jpg",
-"description":"This portable power bank features a 200000mAh Li-Polymer battery with up to 120W output support for charging various USB-powered devices. It includes USB Type-C and Double USB interfaces for connecting multiple devices.\n\nThe device comes with an LED digital display to show the remaining battery charge. It is designed for portable use and is compatible with iPhone, Samsung, Xiaomi, Huawei, and other USB-powered devices.",
-"features":[
-"200000mAh Li-Polymer battery",
-"120W Super Fast Charging",
-"USB Type-C and Double USB output",
-"LED Digital Display",
-"Supports multiple device charging"
-],
-"link":"https://s.click.aliexpress.com/e/_c4k13San"
-}
+    "code": "GL022",
+    "name": "QOOVI 50000mAh 100W Power Bank",
+    "image": "images/GL022.jpg",
+    "description": "This QOOVI power bank features a 50000mAh battery and supports up to 100W fast charging for laptops, smartphones, and other compatible devices. It includes a TFT digital display and built-in cable.\n\nThe device supports USB Type-C input, dual USB outputs, and two-way charging technology. It provides a high-capacity charging solution for multiple devices.",
+    "features": [
+      "50000mAh Battery Capacity",
+      "100W Fast Charging",
+      "TFT Digital Display",
+      "Built-in Charging Cable",
+      "USB Type-C Support",
+      "Dual USB Output"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c2uvGXD1"
+  },
+
+  {
+    "code": "GL023",
+    "name": "KUULAA Qi2 Magnetic 10000mAh Power Bank",
+    "image": "images/GL023.jpg",
+    "description": "This KUULAA power bank features a 10000mAh battery with Qi2 magnetic wireless charging and 20W PD fast charging support. It is designed for compatible smartphones and mobile devices.\n\nThe device includes USB Type-C charging, LED status indicator, built-in LED lamp, and a durable metal shell. It provides a compact charging solution for everyday use.",
+    "features": [
+      "10000mAh Battery Capacity",
+      "Qi2 Magnetic Charging",
+      "20W PD Fast Charging",
+      "USB Type-C Support",
+      "LED Status Indicator",
+      "Metal Shell Design"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c3WmR9yX"
+  },
+
+  {
+    "code": "GL024",
+    "name": "200000mAh 120W Solar Power Bank",
+    "image": "images/GL024.jpg",
+    "description": "This high-capacity power bank features a 200000mAh battery with up to 120W charging support for multiple USB-powered devices. It includes USB Type-C and dual USB output options.\n\nThe device comes with an LED digital display for battery monitoring and supports various smartphones, tablets, and USB-compatible devices. Its portable design makes it suitable for outdoor and emergency charging needs.",
+    "features": [
+      "200000mAh Battery Capacity",
+      "120W Fast Charging Support",
+      "USB Type-C Output",
+      "Dual USB Ports",
+      "LED Digital Display",
+      "Multi-Device Charging"
+    ],
+    "link": "https://s.click.aliexpress.com/e/_c4k13San"
+  }
+
 ]
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
