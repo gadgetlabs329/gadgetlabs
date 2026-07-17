@@ -643,3 +643,193 @@ footer {
 
 
 }
+
+/* =====================================
+   LOADING & ERROR CARD DESIGN
+===================================== */
+
+
+.loading-card,
+.error-card {
+
+    max-width: 500px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 35px 25px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.10);
+
+}
+
+
+
+.loading-card h3,
+.error-card h3 {
+
+    margin-top: 20px;
+    font-size: 24px;
+    color: #111827;
+
+}
+
+
+
+.loading-card p,
+.error-card p {
+
+    color: #666;
+    margin-top: 10px;
+
+}
+
+
+
+.error-card small {
+
+    display: inline-block;
+    margin-top: 15px;
+    background: #f3f4f6;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #2563eb;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+/* =====================================
+   LOADING ANIMATION
+===================================== */
+
+
+.loader {
+
+    width: 55px;
+    height: 55px;
+    border: 6px solid #e5e7eb;
+    border-top: 6px solid #2563eb;
+    border-radius: 50%;
+    margin: auto;
+    animation: spinLoader 1s linear infinite;
+
+}
+
+
+
+@keyframes spinLoader {
+
+
+    from {
+
+        transform: rotate(0deg);
+
+    }
+
+
+    to {
+
+        transform: rotate(360deg);
+
+    }
+
+
+}
+
+
+
+
+
+
+
+/* =====================================
+   ERROR CARD EFFECT
+===================================== */
+
+
+.error-card {
+
+    animation: errorShake 0.4s ease;
+
+}
+
+
+
+@keyframes errorShake {
+
+
+    0% {
+
+        transform: translateX(0);
+
+    }
+
+
+    25% {
+
+        transform: translateX(-8px);
+
+    }
+
+
+    50% {
+
+        transform: translateX(8px);
+
+    }
+
+
+    75% {
+
+        transform: translateX(-5px);
+
+    }
+
+
+    100% {
+
+        transform: translateX(0);
+
+    }
+
+
+}
+
+
+
+
+
+
+
+/* =====================================
+   MOBILE RESPONSIVE
+===================================== */
+
+
+@media(max-width:600px){
+
+
+    .loading-card,
+    .error-card {
+
+        margin: 20px 15px;
+        padding: 25px 15px;
+
+    }
+
+
+
+    .loading-card h3,
+    .error-card h3 {
+
+        font-size: 20px;
+
+    }
+
+
+}
